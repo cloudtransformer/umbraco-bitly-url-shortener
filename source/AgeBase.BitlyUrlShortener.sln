@@ -17,7 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{34DAA0C4
 		..\build\Build.msbuild = ..\build\Build.msbuild
 		..\build\Package.msbuild = ..\build\Package.msbuild
 		..\build\Release.bat = ..\build\Release.bat
-		..\build\Tag.msbuild = ..\build\Tag.msbuild
 	EndProjectSection
 EndProject
 Global

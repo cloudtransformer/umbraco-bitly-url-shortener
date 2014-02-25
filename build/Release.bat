@@ -9,6 +9,16 @@ IF NOT .%1 == . (
 	set VERSION=%1
 )
 
+REM --------------------------------
+REM Update version number
+REM --------------------------------
+
+..\tools\AssemblyInfoUtil.exe -set:%VERSION%.* "..\source\AgeBase.BitlyUrlShortener\Properties\AssemblyInfo.cs"
+
+REM --------------------------------
+REM Build solution
+REM --------------------------------
+
 msbuild Build.msbuild
 set BUILD_STATUS=%ERRORLEVEL% 
 
@@ -20,14 +30,27 @@ exit /b 1
 
 :continuebuild
 
-msbuild Package.msbuild
-set BUILD_STATUS=%ERRORLEVEL% 
+REM --------------------------------
+REM Package solution
+REM --------------------------------
 
-if %BUILD_STATUS%==0 goto end 
+msbuild Package.msbuild
+BUILD_STATUS=%ERRORLEVEL% 
+
+if %BUILD_STATUS%==0 goto continue 
 if not %BUILD_STATUS%==0 goto failpackage 
  
 :failpackage
 exit /b 1 
 
-:end
+:continue
+
+REM --------------------------------
+REM Commit and tag
+REM --------------------------------
+
+git add -A
+git commit -a -m "Release %VERSION%"
+git tag %VERSION%
+
 exit /b 0 
