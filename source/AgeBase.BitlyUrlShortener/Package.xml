@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>AgeBase.BitlyUrlShortener.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>AgeBase.BitlyUrlShortener.dll</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>AgeBase: Bitly Url Shortener</name>
+      <version>1.0.0</version>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>http://agebase.co.uk/</url>
+      <requirements>
+        <major>7</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>AgeBase</name>
+      <website>http://agebase.co.uk/</website>
+    </author>
+    <readme><![CDATA[AgeBase: Bitly Url Shortener
+========================]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>
