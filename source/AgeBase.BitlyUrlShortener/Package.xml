@@ -23,7 +23,7 @@
       <name>AgeBase</name>
       <website>http://agebase.co.uk/</website>
     </author>
-    <readme><![CDATA[The Bit.ly Url Shortener data type allows editors to generate a shortened url for the current page being edited. This can be found from Bit.ly's settings page when logged in. The data type also accommodates for if you have any custom domains setup for your Bit.ly account. The data type requires a login and api key.
+    <readme><![CDATA[The Bitly Url Shortener data type allows editors to generate a shortened url for the current page being edited. This can be found from Bitly's settings page when logged in. The data type also accommodates for if you have any custom domains setup for your Bit.ly account. The data type requires a login and api key.
     
 For full documentation and instructions on how you can contribute, please go to https://github.com/agebase/umbraco-bitly-url-shortener]]></readme>
   </info>

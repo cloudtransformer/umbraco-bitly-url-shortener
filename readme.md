@@ -1,6 +1,6 @@
-# AgeBase: Bit.ly Url Shortener
+# AgeBase: Bitly Url Shortener
 
-The Bit.ly Url Shortener data type allows editors to generate a shortened url for the current page being edited. This can be found from Bit.ly's settings page when logged in. The data type also accommodates for if you have any custom domains setup for your Bit.ly account. The data type requires a login and api key. These are accessible as prevalues on any data types which use the shortener.
+The Bitly Url Shortener data type allows editors to generate a shortened url for the current page being edited. This can be found from Bitly's settings page when logged in. The data type also accommodates for if you have any custom domains setup for your Bit.ly account. The data type requires a login and api key. These are accessible as prevalues on any data types which use the shortener.
 
 ## Contributing
 
