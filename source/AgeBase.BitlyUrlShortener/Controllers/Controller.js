@@ -13,7 +13,7 @@
                 "longUrl": window.location.protocol + "//" + window.location.host + nodeUrl
             },
             function (response) {
-                if (response && response.data && response.url)
+                if (response && response.data && response.data.url)
                     $scope.model.value = response.data.url;
                 else
                     $scope.model.value = "";
