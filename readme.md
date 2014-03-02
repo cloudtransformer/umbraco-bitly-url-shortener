@@ -4,7 +4,7 @@ The Bitly Url Shortener datatype allows editors to generate a shortened url for 
 
 ## Contributing
 
-To raise a new bug, create an [issue](https://github.com/agebase/umbraco-bitly-url-shortener/issue) on the Github repository. To fix a bug or add new features, fork the repository and send a [pull request](https://github.com/agebase/umbraco-bitly-url-shortener/pulls) with your changes. Feel free to add ideas to the repository's [issues](https://github.com/agebase/umbraco-bitly-url-shortener/issue) list if you would to discuss anything related to the package.
+To raise a new bug, create an [issue](https://github.com/agebase/umbraco-bitly-url-shortener/issues) on the Github repository. To fix a bug or add new features, fork the repository and send a [pull request](https://github.com/agebase/umbraco-bitly-url-shortener/pulls) with your changes. Feel free to add ideas to the repository's [issues](https://github.com/agebase/umbraco-bitly-url-shortener/issues) list if you would to discuss anything related to the package.
 
 ## Developing
 
