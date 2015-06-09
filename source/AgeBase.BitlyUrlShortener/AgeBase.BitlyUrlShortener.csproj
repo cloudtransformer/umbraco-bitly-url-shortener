@@ -191,6 +191,7 @@
     <Compile Include="BitlyUrlShortenerPropertyEditor.cs" />
     <Compile Include="BitlyUrlShortenerRouteConfig.cs" />
     <Compile Include="BitlyUrlShortenerStartupHandler.cs" />
+    <Compile Include="Helpers\BitlyUrlShortenerHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
