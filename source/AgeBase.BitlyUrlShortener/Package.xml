@@ -10,7 +10,7 @@
   <info>
     <package>
       <name>AgeBase: Bitly Url Shortener</name>
-      <version>1.0.1</version>
+      <version>1.0.2</version>
       <license url="http://opensource.org/licenses/MIT">MIT License</license>
       <url>http://agebase.co.uk/</url>
       <requirements>

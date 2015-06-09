@@ -14,6 +14,7 @@ REM Update version number
 REM --------------------------------
 
 ..\tools\AssemblyInfoUtil.exe -set:%VERSION%.* "..\source\AgeBase.BitlyUrlShortener\Properties\AssemblyInfo.cs"
+..\tools\AssemblyInfoUtil.exe -set:%VERSION%.* "..\source\AgeBase.BitlyUrlShortener.Tests\Properties\AssemblyInfo.cs"
 
 REM --------------------------------
 REM Build solution
